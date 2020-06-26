@@ -1,0 +1,98 @@
+/*
+Theme Name: Curso WP
+Theme URI: http://siliconevalley.com 
+Description: Site para o curso
+Author: Gabriel Noro
+Author URI: http://siliconevalley.com 
+Version: 1.0
+*/
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+}
+
+
+/*  css header   */
+.header{
+    height: 700px;
+    width: auto;
+    background: url(assets/images/bg-header.jpg) center top;
+    padding: 15px 0;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.header h1 a{
+    color: rgb(161, 222, 250);
+    text-decoration: none;
+}
+
+.header .infor{
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header .infor h2{
+    color: #fff;
+}
+
+.header .infor p{
+    color: rgb(221, 219, 219);
+}
+
+.custom-botao{
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: #60d3b1;
+    color: #fff;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.wrap{
+    margin: 0 auto;
+}
+
+.blog{
+    padding:  10px 0;
+}
+
+#titulo{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+
+
+#linha-esquerda{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#linha-direita{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    #linha{
+        display: flex;
+        width: 50%;
+        padding: 20px;
+    }
+}
